@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Digital;
+    src: url(./font/digital-7\ \italic\.ttf);
+}
+
+.calculator {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view {
+    height: 30px;
+    font-family: Digital;
+    font-size: larger;
+}
+
+.button {
+    border: 1px solid green;
+    padding: 2px;
+}
+
+.button input {
+    width: 75px;
+    padding: 2px;
+    margin: 5px 5px;
+    border: 1px solid green;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.7);
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+.button input:hover {
+    box-shadow: inset 2px 2px 5px rgba(128, 128, 128, 0.7);
+    cursor: pointer;
+}

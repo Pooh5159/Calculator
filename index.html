@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <script src="./asset/app.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <form name="Calculator">
+        <table class="calculator">
+            <tr>
+                <td>
+                    <input class="view" type="text" name="view" size="39" maxlength="39" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="button">
+                        <tr>
+                            <td>
+                                <input type="button" value="7" onclick="ajouter('7');">
+                            </td>
+                            <td>
+                                <input type="button" value="8" onclick="ajouter('8');">
+                            </td>
+                            <td>
+                                <input type="button" value="9" onclick="ajouter('9');">
+                            </td>
+                            <td>
+                                <input type="button" value="+" onclick="ajouter('+');">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="4" onclick="ajouter('4');">
+                            </td>
+                            <td>
+                                <input type="button" value="5" onclick="ajouter('5');">
+                            </td>
+                            <td>
+                                <input type="button" value="6" onclick="ajouter('6');">
+                            </td>
+                            <td>
+                                <input type="button" value="-" onclick="ajouter('-');">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="1" onclick="ajouter('1');">
+                            </td>
+                            <td>
+                                <input type="button" value="2" onclick="ajouter('2');">
+                            </td>
+                            <td>
+                                <input type="button" value="3" onclick="ajouter('3');">
+                            </td>
+                            <td>
+                                <input type="button" value="*" onclick="ajouter('*');">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="=" onclick="resultat('=');">
+                            </td>
+                            <td>
+                                <input type="button" value="0" onclick="ajouter('0');">
+                            </td>
+                            <td>
+                                <input type="button" value="." onclick="ajouter('.');">
+                            </td>
+                            <td>
+                                <input type="button" value="/" onclick="ajouter('/');">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="sqrt" onclick="fonctionSpeciale('sqrt')">
+                            </td>
+                            <td>
+                                <input type="button" value="pow" onclick="fonctionSpeciale('pow')">
+                            </td>
+                            <td>
+                                <input type="button" value="log" onclick="fonctionSpeciale('log')">
+                            </td>
+                            <td>
+                                <input type="reset" value="C">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
